@@ -1,0 +1,44 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  position: relative;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.hand {
+  transform-origin: 0 100%;
+  animation-name: wave;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+}
+
+@keyframes wave {
+  0%,
+  42.5%,
+  47.5%,
+  52.5%,
+  57.5%,
+  100% {
+    transform: rotate(0);
+  }
+
+  45%,
+  50%,
+  55% {
+    transform: rotate(15deg);
+  }
+}
