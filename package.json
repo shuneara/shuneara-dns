@@ -8,21 +8,24 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@chakra-ui/icons": "^1.1.0",
-    "@chakra-ui/react": "^1.7.0",
-    "@emotion/react": "^11",
-    "@emotion/styled": "^11",
-    "@fontsource/jetbrains-mono": "^4.5.0",
-    "framer-motion": "^4",
-    "next": "12.0.3",
+    "@babel/core": "^7.16.12",
+    "@chakra-ui/icons": "^1.1.1",
+    "@chakra-ui/react": "^1.8.1",
+    "@chakra-ui/system": "^1.10.1",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@fontsource/jetbrains-mono": "^4.5.1",
+    "framer-motion": "^4.1.17",
+    "next": "^12.0.9",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-easy-emoji": "^1.6.1",
     "react-icons": "^4.3.1"
   },
   "devDependencies": {
     "@types/node": "16.11.7",
     "@types/react": "17.0.34",
-    "eslint": "7",
+    "eslint": "^7.32.0",
     "eslint-config-next": "12.0.3",
     "typescript": "4.4.4"
   }

@@ -1,34 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
+### Gifu
 ```
+                  test1   test2   test3   test4   test5   test6   test7   test8   test9   test10  Average
+ShunearaDNS       20 ms   20 ms   20 ms   30 ms   10 ms   20 ms   30 ms   20 ms   20 ms   20 ms     21.00
+cloudflare        30 ms   20 ms   20 ms   20 ms   20 ms   20 ms   20 ms   20 ms   20 ms   20 ms     21.00
+level3            20 ms   10 ms   20 ms   20 ms   20 ms   30 ms   10 ms   20 ms   30 ms   20 ms     20.00
+google            30 ms   20 ms   20 ms   50 ms   20 ms   20 ms   10 ms   20 ms   30 ms   20 ms     24.00
+quad9             30 ms   20 ms   20 ms   20 ms   30 ms   20 ms   20 ms   20 ms   20 ms   170 ms    37.00
+freenom           270 ms  270 ms  270 ms  280 ms  290 ms  280 ms  290 ms  270 ms  270 ms  320 ms    281.00
+opendns           20 ms   20 ms   20 ms   50 ms   30 ms   190 ms  20 ms   60 ms   50 ms   20 ms     48.00
+norton            20 ms   20 ms   20 ms   20 ms   20 ms   20 ms   20 ms   20 ms   20 ms   170 ms    35.00
+yandex            290 ms  300 ms  300 ms  310 ms  330 ms  310 ms  300 ms  300 ms  300 ms  320 ms    306.00
+adguard           180 ms  180 ms  180 ms  170 ms  170 ms  180 ms  170 ms  170 ms  180 ms  170 ms    175.00
+neustar           70 ms   110 ms  80 ms   110 ms  80 ms   100 ms  80 ms   80 ms   120 ms  80 ms     91.00
+comodo            60 ms   40 ms   50 ms   50 ms   50 ms   50 ms   60 ms   50 ms   20 ms   40 ms     47.00
+```
+### List
+- Energized Protection⚡
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Status
+<https://stats.uptimerobot.com/4w3kDCzEx3>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+*いかなる事項も保証しません、自己責任で利用してください。*
