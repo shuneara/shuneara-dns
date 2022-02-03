@@ -1,4 +1,39 @@
-### Gifu
+<h1 align="center">
+  プライバシーとセキュリティ
+</h1>
+
+## お知らせ
+
+- [ステータスページ](https://stats.uptimerobot.com/4w3kDCzEx3)
+
+- サーバーがビジー状態になった場合 AdGuard DNS に転送されます
+
+- レート制限は 10rps "ANYクエリ .arpa .bind .server"をドロップします
+
+- ZeroSSL を使用しています
+
+- ENS などの名前解決ができます [ens.eth](http://ens.eth)
+
+## ブロック
+
+- Energized Protection⚡
+
+```
+ボットネット
+C&Cサーバー
+暗号採掘
+DGAドメイン
+DNSトンネリング
+新しく登録されたドメイン
+新しく表示されるドメイン
+脅威にさらされるドメイン
+プライベートIPアドレスに解決されるドメイン
+到達不能なサイト
+タイポスクワッティング
+```
+
+### [DNS Performance Test](https://github.com/cleanbrowsing/dnsperftest)
+
 ```
                   test1   test2   test3   test4   test5   test6   test7   test8   test9   test10  Average
 ShunearaDNS       20 ms   20 ms   20 ms   30 ms   10 ms   20 ms   30 ms   20 ms   20 ms   20 ms     21.00
@@ -14,10 +49,7 @@ adguard           180 ms  180 ms  180 ms  170 ms  170 ms  180 ms  170 ms  170 ms
 neustar           70 ms   110 ms  80 ms   110 ms  80 ms   100 ms  80 ms   80 ms   120 ms  80 ms     91.00
 comodo            60 ms   40 ms   50 ms   50 ms   50 ms   50 ms   60 ms   50 ms   20 ms   40 ms     47.00
 ```
-### List
-- Energized Protection⚡
 
-### Status
-<https://stats.uptimerobot.com/4w3kDCzEx3>
+#### _アクセスログ(IP アドレス)、DNS クエリログを保持しません_
 
-*いかなる事項も保証しません、自己責任で利用してください。*
+#### _自己責任でご利用ください_
