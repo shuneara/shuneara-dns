@@ -373,7 +373,7 @@ const Home: NextPage = () => {
                   報告できます
                 </Text>
                 <Text>
-                  アクセスログ(IPアドレス)を保持しませんが、DNSクエリログを保存する場合があります
+                  アクセスログ(IPアドレス)、DNSクエリログを保持しません
                 </Text>
                 <Text>ありがとう、Oracle Cloud！</Text>
               </AccordionPanel>
