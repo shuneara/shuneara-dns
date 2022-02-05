@@ -6,17 +6,11 @@
 
 - [ステータスページ](https://stats.uptimerobot.com/4w3kDCzEx3)
 
-- サーバーがビジー状態になった場合 AdGuard DNS に転送されます
-
-- レート制限は 10rps "ANYクエリ .arpa .bind .server"をドロップします
-
-- ZeroSSL を使用しています
-
-- ENS などの名前解決ができます [ens.eth](http://ens.eth)
+- Plain DNSは海外からのアクセスができません
 
 ## ブロック
 
-- Energized Protection⚡
+- Energized Protection
 
 ```
 ボットネット

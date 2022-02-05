@@ -170,7 +170,7 @@ const Home: NextPage = () => {
           {/* <Alert status="error" mt={4}>
             <AlertIcon />
             <AlertTitle mr={2}>工事中</AlertTitle>
-            <AlertDescription>adguard/dnsproxyを使います,DoTのドメインを変更します</AlertDescription>
+            <AlertDescription>工事中</AlertDescription>
             <CloseButton position="absolute" right="8px" top="8px" />
           </Alert> */}
           <Accordion defaultIndex={[0]} allowMultiple mt="auto" mb="auto" p={4}>
@@ -375,7 +375,6 @@ const Home: NextPage = () => {
                 <Text>
                   アクセスログ(IPアドレス)、DNSクエリログを保持しません
                 </Text>
-                <Text>ありがとう、Oracle Cloud！</Text>
               </AccordionPanel>
             </AccordionItem>
           </Accordion>
