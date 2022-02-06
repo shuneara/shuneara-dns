@@ -6,7 +6,7 @@
 
 - [ステータスページ](https://stats.uptimerobot.com/4w3kDCzEx3)
 
-- Plain DNSは海外からのアクセスができません
+- プレーンDNSは海外からのアクセスができません
 
 ## ブロック
 

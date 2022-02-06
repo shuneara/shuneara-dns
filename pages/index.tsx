@@ -192,17 +192,6 @@ const Home: NextPage = () => {
                 >
                   IPv4
                 </Link>
-                <br />
-                <Link
-                  title="コピー"
-                  onClick={() => {
-                    navigator.clipboard.writeText(
-                      '2603:c021:8005:6201:6c79:5010:e665:7399'
-                    )
-                  }}
-                >
-                  IPv6
-                </Link>
               </AccordionPanel>
             </AccordionItem>
 
@@ -285,7 +274,7 @@ const Home: NextPage = () => {
                   title="コピー"
                   onClick={() => {
                     navigator.clipboard.writeText(
-                      "Add-DnsClientDohServerAddress -ServerAddress '152.70.108.7' -DohTemplate 'https://dns.shuneara.com/dns-query' ; Add-DnsClientDohServerAddress -ServerAddress '2603:c021:8005:6201:6c79:5010:e665:7399' -DohTemplate 'https://dns.shuneara.com/dns-query'"
+                      "Add-DnsClientDohServerAddress -ServerAddress '152.70.108.7' -DohTemplate 'https://dns.shuneara.com/dns-query'"
                     )
                   }}
                 >
