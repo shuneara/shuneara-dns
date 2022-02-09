@@ -103,10 +103,6 @@ const Home: NextPage = () => {
             <Box>
               <Stack spacing={4} mt={4}>
                 <Text>もう危険なサイトとはおさらば</Text>
-                <Text>
-                  30万件近くのドメインをブロックするEnergized
-                  Protectionがあなたを守ります
-                </Text>
                 <Wrap>
                   <Badge fontSize="sm">DNSSEC</Badge>
                   <Badge fontSize="sm">NO LOGS</Badge>
@@ -142,7 +138,7 @@ const Home: NextPage = () => {
                   <Button
                     onClick={() => {
                       window.open(
-                        `https://energized.pro/check/?domain=${domainRef.current?.value}`,
+                        `https://shuneara-dns.deno.dev/${domainRef.current?.value}`,
                         '_blank'
                       )
                     }}
@@ -153,7 +149,7 @@ const Home: NextPage = () => {
                     title="ドメインの情報を送ります"
                     onClick={() => {
                       window.open(
-                        `https://energized.pro/check/?domain=${domainRef.current?.value}&submit=yes`,
+                        `https://github.com/AdguardTeam/AdGuardSDNSFilter/issues`,
                         '_blank'
                       )
                     }}

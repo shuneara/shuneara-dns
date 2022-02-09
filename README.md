@@ -6,11 +6,11 @@
 
 - [ステータスページ](https://stats.uptimerobot.com/4w3kDCzEx3)
 
-- プレーンDNSは海外からのアクセスができません
+- プレーン DNS は海外からのアクセスができません
 
 ## ブロック
 
-- Energized Protection
+- [AdGuard](https://github.com/AdguardTeam/AdGuardSDNSFilter)
 
 ```
 ボットネット
