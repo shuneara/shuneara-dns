@@ -10,7 +10,10 @@
 
 ## ブロック
 
-- [AdGuard](https://github.com/AdguardTeam/AdGuardSDNSFilter)
+- [OISD](https://abp.oisd.nl/basic/)
+- [AdGuard](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
+- [Windows](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt)
+- [d3Host](https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt)
 
 ```
 ボットネット

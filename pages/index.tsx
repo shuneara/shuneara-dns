@@ -145,17 +145,6 @@ const Home: NextPage = () => {
                   >
                     確認
                   </Button>
-                  <Button
-                    title="ドメインの情報を送ります"
-                    onClick={() => {
-                      window.open(
-                        `https://github.com/AdguardTeam/AdGuardSDNSFilter/issues`,
-                        '_blank'
-                      )
-                    }}
-                  >
-                    {emoji('📨')}
-                  </Button>
                 </HStack>
               </Stack>
             </Box>
