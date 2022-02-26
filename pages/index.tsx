@@ -40,7 +40,6 @@ import {
 } from '@chakra-ui/react'
 import { MoonIcon, SunIcon } from '@chakra-ui/icons'
 import { FaGithub } from 'react-icons/fa'
-import emoji from 'react-easy-emoji'
 import { useState, useRef } from 'react'
 
 const Home: NextPage = () => {
@@ -78,7 +77,7 @@ const Home: NextPage = () => {
               Shuneara DNS
             </Heading>
           </Link>
-          <Text title="設定状態">{emoji(dns)}</Text>
+          <Text title="設定状態">{dns}</Text>
           <Spacer />
           <IconButton
             aria-label="DarkMode Switch"
@@ -146,6 +145,7 @@ const Home: NextPage = () => {
                     確認
                   </Button>
                 </HStack>
+                <Text>Illustration by <a href="https://icons8.com/illustrations/author/60872b904391d1000c87ab70">Marina Mogulskaya</a> from <a href="https://icons8.com/illustrations">Ouch!</a></Text>
               </Stack>
             </Box>
           </SimpleGrid>
