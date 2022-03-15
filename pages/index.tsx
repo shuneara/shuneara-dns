@@ -145,7 +145,13 @@ const Home: NextPage = () => {
                     確認
                   </Button>
                 </HStack>
-                <Text>Illustration by <a href="https://icons8.com/illustrations/author/60872b904391d1000c87ab70">Marina Mogulskaya</a> from <a href="https://icons8.com/illustrations">Ouch!</a></Text>
+                <Text>
+                  Illustration by{' '}
+                  <a href="https://icons8.com/illustrations/author/60872b904391d1000c87ab70">
+                    Marina Mogulskaya
+                  </a>{' '}
+                  from <a href="https://icons8.com/illustrations">Ouch!</a>
+                </Text>
               </Stack>
             </Box>
           </SimpleGrid>
@@ -221,6 +227,17 @@ const Home: NextPage = () => {
                 >
                   https://dns.shuneara.com/dns-query
                 </Link>
+                <br />
+                <Link
+                  title="コピー"
+                  onClick={() => {
+                    navigator.clipboard.writeText(
+                      'https://cdn.shuneara.com/dns-query'
+                    )
+                  }}
+                >
+                  https://cdn.shuneara.com/dns-query
+                </Link>
               </AccordionPanel>
             </AccordionItem>
 
@@ -259,7 +276,7 @@ const Home: NextPage = () => {
                   title="コピー"
                   onClick={() => {
                     navigator.clipboard.writeText(
-                      "Add-DnsClientDohServerAddress -ServerAddress '152.70.108.7' -DohTemplate 'https://dns.shuneara.com/dns-query'"
+                      "Add-DnsClientDohServerAddress -ServerAddress '152.70.108.7' -DohTemplate 'https://cdn.shuneara.com/dns-query'"
                     )
                   }}
                 >
@@ -282,7 +299,7 @@ const Home: NextPage = () => {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                <Link href="https://raw.githubusercontent.com/shuneara/shuneara-dns/main/doh.mobileconfig">
+                <Link href="https://raw.githubusercontent.com/shuneara/shuneara-dns/main/dns.mobileconfig">
                   インストール
                 </Link>
               </AccordionPanel>

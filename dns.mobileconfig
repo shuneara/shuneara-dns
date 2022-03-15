@@ -9,8 +9,15 @@
 <dict>
 <key>DNSProtocol</key>
 <string>HTTPS</string>
+<key>ServerAddresses</key>
+<array>
+<string>2606:4700:4700::1111</string>
+<string>2606:4700:4700::1001</string>
+<string>1.1.1.1</string>
+<string>1.0.0.1</string>
+</array>
 <key>ServerURL</key>
-<string>https://dns.shuneara.com/dns-query</string>
+<string>https://cdn.shuneara.com/dns-query</string>
 </dict>
 <key>OnDemandRules</key>
 <array>
@@ -32,15 +39,15 @@
 </dict>
 </array>
 <key>PayloadDescription</key>
-<string>Shuneara DNSを使用するようにデバイスを設定します</string>
+<string>ShunearaDNSを使用するようにデバイスを設定します</string>
 <key>PayloadDisplayName</key>
-<string>Shuneara DNS</string>
+<string>ShunearaDNS</string>
 <key>PayloadIdentifier</key>
-<string>com.apple.dnsSettings.managed.c158749d-f2d2-482e-89fb-d4814fa9f16a</string>
+<string>com.apple.dnsSettings.managed.ad9369c6-8200-4fab-b8d6-1c7a39f84de7</string>
 <key>PayloadType</key>
 <string>com.apple.dnsSettings.managed</string>
 <key>PayloadUUID</key>
-<string>b0c57465-ac05-4df5-a55c-cba5056a1ead</string>
+<string>c9b2d73b-d5a2-4f16-8dc2-635e5c32327e</string>
 <key>PayloadVersion</key>
 <integer>1</integer>
 <key>ProhibitDisablement</key>
@@ -48,17 +55,17 @@
 </dict>
 </array>
 <key>PayloadDescription</key>
-<string>Shuneara DNSを使用するようにデバイスを設定します</string>
+<string>ShunearaDNSを使用するようにデバイスを設定します</string>
 <key>PayloadDisplayName</key>
-<string>Shuneara DNS</string>
+<string>ShunearaDNS</string>
 <key>PayloadIdentifier</key>
-<string>com.notjakob.apple-dns.2e6d49f0-fa5a-405c-9eb3-bda72480a761</string>
+<string>com.notjakob.apple-dns.b95cef23-3678-4477-8335-9043b4ea1c27</string>
 <key>PayloadRemovalDisallowed</key>
 <false/>
 <key>PayloadType</key>
 <string>Configuration</string>
 <key>PayloadUUID</key>
-<string>6d8c01b2-cf1d-40a1-90c7-af5440317924</string>
+<string>72574012-ae69-4ff3-ac15-40366428f5c3</string>
 <key>PayloadVersion</key>
 <integer>1</integer>
 </dict>
