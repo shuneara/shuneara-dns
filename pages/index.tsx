@@ -158,12 +158,6 @@ const Home: NextPage = () => {
           <Text fontSize="2xl" mt={8}>
             DNSの設定方法
           </Text>
-          {/* <Alert status="error" mt={4}>
-            <AlertIcon />
-            <AlertTitle mr={2}>工事中</AlertTitle>
-            <AlertDescription>工事中</AlertDescription>
-            <CloseButton position="absolute" right="8px" top="8px" />
-          </Alert> */}
           <Accordion defaultIndex={[0]} allowMultiple mt="auto" mb="auto" p={4}>
             <AccordionItem>
               <h2>
@@ -276,7 +270,7 @@ const Home: NextPage = () => {
                   title="コピー"
                   onClick={() => {
                     navigator.clipboard.writeText(
-                      "Add-DnsClientDohServerAddress -ServerAddress '152.70.108.7' -DohTemplate 'https://cdn.shuneara.com/dns-query'"
+                      "Add-DnsClientDohServerAddress -ServerAddress '152.70.108.7' -DohTemplate 'https://dns.shuneara.com/dns-query'"
                     )
                   }}
                 >
@@ -342,6 +336,8 @@ const Home: NextPage = () => {
                         プライベートIPアドレスに解決されるドメイン
                         <br />
                         タイポスクワッティング
+                        <br />
+                        MSN/Bing,DuckDNS,popIn,Kaspersky
                       </Text>
                     </ModalBody>
 

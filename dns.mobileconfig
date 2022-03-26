@@ -17,7 +17,7 @@
 <string>1.0.0.1</string>
 </array>
 <key>ServerURL</key>
-<string>https://cdn.shuneara.com/dns-query</string>
+<string>https://dns.shuneara.com/dns-query</string>
 </dict>
 <key>OnDemandRules</key>
 <array>

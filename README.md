@@ -25,6 +25,7 @@ DNSトンネリング
 脅威にさらされるドメイン
 プライベートIPアドレスに解決されるドメイン
 タイポスクワッティング
+MSN/Bing,DuckDNS,popIn,Kaspersky
 ```
 
 ### [DNS Performance Test](https://github.com/cleanbrowsing/dnsperftest)
