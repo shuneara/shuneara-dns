@@ -172,7 +172,7 @@ const Home: NextPage = () => {
                 <Link
                   title="コピー"
                   onClick={() => {
-                    navigator.clipboard.writeText('152.70.108.7')
+                    navigator.clipboard.writeText('94.140.14.14')
                   }}
                 >
                   IPv4
@@ -270,7 +270,7 @@ const Home: NextPage = () => {
                   title="コピー"
                   onClick={() => {
                     navigator.clipboard.writeText(
-                      "Add-DnsClientDohServerAddress -ServerAddress '152.70.108.7' -DohTemplate 'https://dns.shuneara.com/dns-query'"
+                      "Add-DnsClientDohServerAddress -ServerAddress '94.140.14.14' -DohTemplate 'https://dns.shuneara.com/dns-query'"
                     )
                   }}
                 >
