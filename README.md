@@ -5,6 +5,7 @@
 ## お知らせ
 
 - [ステータスページ](https://stats.uptimerobot.com/4w3kDCzEx3)
+- プレーン DNS は廃止されました
 
 ## ブロック
 
