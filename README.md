@@ -6,14 +6,13 @@
 
 - [ステータスページ](https://stats.uptimerobot.com/4w3kDCzEx3)
 
-- プレーン DNS は海外からのアクセスができません
-
 ## ブロック
 
 - [OISD](https://abp.oisd.nl/basic/)
 - [AdGuard](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
 - [Windows](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt)
 - [d3Host](https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt)
+- [1Hosts](https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt)
 
 ```
 ボットネット
