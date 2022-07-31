@@ -260,33 +260,6 @@ const Home: NextPage = () => {
               <h2>
                 <AccordionButton>
                   <Box flex="1" textAlign="left">
-                    Windows
-                  </Box>
-                  <AccordionIcon />
-                </AccordionButton>
-              </h2>
-              <AccordionPanel pb={4}>
-                <Link
-                  title="コピー"
-                  onClick={() => {
-                    navigator.clipboard.writeText(
-                      "Add-DnsClientDohServerAddress -ServerAddress '94.140.14.14' -DohTemplate 'https://dns.shuneara.com/dns-query'"
-                    )
-                  }}
-                >
-                  これをPowerShellで実行
-                </Link>
-                <br />
-                <Link href="https://news.mynavi.jp/techplus/article/20210701-1912891/">
-                  詳細はこちら
-                </Link>
-              </AccordionPanel>
-            </AccordionItem>
-
-            <AccordionItem>
-              <h2>
-                <AccordionButton>
-                  <Box flex="1" textAlign="left">
                     iOS & Mac
                   </Box>
                   <AccordionIcon />
@@ -336,8 +309,6 @@ const Home: NextPage = () => {
                         プライベートIPアドレスに解決されるドメイン
                         <br />
                         タイポスクワッティング
-                        <br />
-                        MSN/Bing,DuckDNS,popIn,Kaspersky
                       </Text>
                     </ModalBody>
 
